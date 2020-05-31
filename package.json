@@ -1,0 +1,31 @@
+{
+  "name": "gateway-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "tsnd -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^0.14.1",
+    "@nestjs/common": "^7.0.8",
+    "@nestjs/config": "^0.4.0",
+    "@nestjs/core": "^7.0.8",
+    "@nestjs/graphql": "^7.3.1",
+    "@nestjs/platform-express": "^7.0.8",
+    "@types/express": "^4.17.6",
+    "apollo-server-express": "^2.12.0",
+    "class-transformer": "^0.2.3",
+    "class-validator": "0.11.1",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^6.5.5",
+    "tsconfig-paths": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.6",
+    "ts-node": "^8.8.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  }
+}
